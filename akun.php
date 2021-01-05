@@ -54,7 +54,7 @@ $data = mysqli_query($conn, $query);
                         $row = mysqli_fetch_assoc($data2);
                         ?>
                             <div class="form-group">
-                                <label for="emailPenerima">Tujuan E-mail</label>
+                                <label for="emailPenerima">Asal E-mail</label>
                                 <input type="email" name="emailPenerima" class="form-control" id="emailPenerima" value="<?= $row['email_penerima'] ?>" readonly>
                             </div>
                             <div class="form-group">
